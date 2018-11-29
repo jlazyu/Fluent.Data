@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Fluent.Data.MySql</id>
+    <version>$version$</version>
+    <title>Fluent Data MySql</title>
+    <authors>Randy Hodge</authors>
+    <owners>Randy Hodge</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A MySql data provider specific implementation of Fluent ADO.net API.</description>
+    <releaseNotes>Initial Version</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>ADO.Net Fluent Database MySql</tags>
+    <dependencies>
+      <dependency id="MySql.Data" version="6.8.8.0" />
+      <dependency id="System.Runtime.CompilerServices.Unsafe" version="4.4.0" />
+      <dependency id="System.Text.Encodings.Web" version="4.4.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="readme.txt"></file>
+    <file src="..\Fluent.Data.MySql\bin\$Configuration$\Fluent.Data.MySql.dll" target="lib\net45\Fluent.Data.MySql.dll" />
+  </files>
+</package>

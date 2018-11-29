@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent.Data", "Fluent.Data\Fluent.Data.csproj", "{51A98BC3-529F-4FD0-8C24-FD2EA3418FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent.Data.SqlServer", "Fluent.Data.SqlServer\Fluent.Data.SqlServer.csproj", "{C69102C1-5515-4D89-A0D7-63B7E153AAC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent.Data.MySql", "Fluent.Data.MySql\Fluent.Data.MySql.csproj", "{A832B599-EA25-4BFE-B9E9-6B44B519F32A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent.Data.Oracle", "Fluent.Data.Oracle\Fluent.Data.Oracle.csproj", "{FC07D53E-0488-4ADD-956A-8070E5529F70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent.Data.Configuration.Core", "Fluent.Data.Configuration.Core\Fluent.Data.Configuration.Core.csproj", "{4CC7AD8E-04EF-4176-A259-A2C565094276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent.Data.Transaction", "Fluent.Data.Transaction\Fluent.Data.Transaction.csproj", "{8CA86421-2726-4AEB-A7DE-7B016826D6B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51A98BC3-529F-4FD0-8C24-FD2EA3418FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A98BC3-529F-4FD0-8C24-FD2EA3418FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A98BC3-529F-4FD0-8C24-FD2EA3418FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A98BC3-529F-4FD0-8C24-FD2EA3418FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C69102C1-5515-4D89-A0D7-63B7E153AAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69102C1-5515-4D89-A0D7-63B7E153AAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69102C1-5515-4D89-A0D7-63B7E153AAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69102C1-5515-4D89-A0D7-63B7E153AAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A832B599-EA25-4BFE-B9E9-6B44B519F32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A832B599-EA25-4BFE-B9E9-6B44B519F32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A832B599-EA25-4BFE-B9E9-6B44B519F32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A832B599-EA25-4BFE-B9E9-6B44B519F32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC07D53E-0488-4ADD-956A-8070E5529F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC07D53E-0488-4ADD-956A-8070E5529F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC07D53E-0488-4ADD-956A-8070E5529F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC07D53E-0488-4ADD-956A-8070E5529F70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC7AD8E-04EF-4176-A259-A2C565094276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC7AD8E-04EF-4176-A259-A2C565094276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC7AD8E-04EF-4176-A259-A2C565094276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC7AD8E-04EF-4176-A259-A2C565094276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA86421-2726-4AEB-A7DE-7B016826D6B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA86421-2726-4AEB-A7DE-7B016826D6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA86421-2726-4AEB-A7DE-7B016826D6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA86421-2726-4AEB-A7DE-7B016826D6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0064EA03-704B-4D35-86FD-F7D6BD9A4552}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Fluent.Data</id>
+    <version>$version$</version>
+    <title>Fluent Data</title>
+    <authors>Randy Hodge</authors>
+    <owners>Randy Hodge</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Core functionality for Fluent ADO.net API.</description>
+    <releaseNotes>Initial Version</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>ADO.Net Fluent Database</tags>
+    <dependencies>
+      <dependency id="Fluent.Data.Transaction" version="1.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="readme.txt"></file>
+    <file src="..\Fluent.Data\bin\$Configuration$\Fluent.Data.dll" target="lib\net45\Fluent.Data.dll" />
+  </files>
+</package>

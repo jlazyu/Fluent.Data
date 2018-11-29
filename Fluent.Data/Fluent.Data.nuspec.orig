@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Fluent.Data</id>
+    <version>$version$</version>
+    <title>Fluent Data</title>
+    <authors>Randy Hodge</authors>
+    <owners>Randy Hodge</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Core functionality for Fluent ADO.net API.</description>
+    <releaseNotes>Initial Version</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>ADO.Net Fluent Database</tags>
+<<<<<<< HEAD
+=======
+    <dependencies>
+      <dependency id="MySql.Data" version="6.8.8.0" />
+      <dependency id="System.Runtime.CompilerServices.Unsafe" version="4.4.0" />
+      <dependency id="System.Text.Encodings.Web" version="4.4.0" />
+    </dependencies>
+>>>>>>> 4226accf471abaefb638d7ef79feb18b834c737d
+  </metadata>
+</package>

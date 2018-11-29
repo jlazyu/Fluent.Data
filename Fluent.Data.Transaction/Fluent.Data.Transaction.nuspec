@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Fluent.Data.Transaction</id>
+    <version>$version$</version>
+    <title>Fluent Data Transaction</title>
+    <authors>Randy Hodge</authors>
+    <owners>Randy Hodge</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides a Transaction Context for Fluent ADO.Net API.</description>
+    <releaseNotes>Initial Version</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>ADO.Net Fluent Database Transaction Context</tags>
+  </metadata>
+  <files>
+    <file src="readme.txt"></file>
+    <file src="..\Fluent.Data\bin\$Configuration$\Fluent.Data.Transaction.dll" target="lib\net45\Fluent.Data.Transaction.dll" />
+  </files>
+</package>
